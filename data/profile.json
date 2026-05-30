@@ -1,0 +1,77 @@
+{
+"name": "Prince Kumar",
+"email": "[princekumarqaprofile@gmail.com](mailto:princekumarqaprofile@gmail.com)",
+"phone": "+918789440369",
+"location": "Kolkata, India",
+
+"linkedin": "Prince Kumar",
+"github": "",
+"portfolio": "",
+
+"experience": "4 Years 8 Months",
+
+"currentRole": "Senior Test Analyst",
+
+"summary": "Highly motivated, detail-oriented, and performance-driven QA Engineer with 4 years and 8 months of experience in software testing specializing in web, mobile, and API testing.",
+
+"skills": [
+"Java",
+"Selenium WebDriver",
+"TestNG",
+"Rest Assured",
+"Postman",
+"API Testing",
+"UI Testing",
+"Functional Testing",
+"Regression Testing",
+"End-to-End Testing",
+"Manual Testing",
+"Cross-Browser Testing",
+"Selenium Grid",
+"BrowserStack",
+"LambdaTest",
+"XPath",
+"BDD Cucumber",
+"Git",
+"Agile",
+"Scrum",
+"Azure DevOps",
+"Jira",
+"SQL",
+"Maven",
+"POM Framework",
+"Hybrid Framework"
+],
+
+"education": [
+{
+"college": "GL Bajaj Institute of Technology and Management",
+"degree": "Bachelor of Technology",
+"percentage": "82.16%",
+"duration": "2017-2021",
+"location": "Greater Noida, India"
+}
+],
+
+"workExperience": [
+{
+"company": "Cognizant Technology Solutions",
+"role": "Senior Test Analyst",
+"duration": "Aug 2021 - Present",
+
+
+  "responsibilities": [
+    "Automated 1000+ test cases using Selenium WebDriver",
+    "Reduced manual effort by 30%",
+    "Performed API testing using Postman",
+    "Executed Salesforce web and mobile testing",
+    "Managed test cases using Azure DevOps",
+    "Participated in Agile Scrum activities",
+    "Collaborated with developers and product teams",
+    "Used Generative AI tools for testing optimization"
+  ]
+}
+
+
+]
+}

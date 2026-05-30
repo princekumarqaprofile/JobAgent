@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobAgent Automation Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans h-screen flex flex-col overflow-hidden">
+
+    <header class="bg-gray-900 border-b border-gray-800 px-6 py-4 flex justify-between items-center shrink-0">
+        <div class="flex items-center space-x-3">
+            <span class="text-2xl">🤖</span>
+            <h1 class="text-xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                JobAgent Matrix Workspace
+            </h1>
+        </div>
+        <div id="job-counter" class="bg-gray-800 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-700 text-gray-300">
+            Loading Data Stream...
+        </div>
+    </header>
+
+    <main class="flex flex-1 overflow-hidden">
+        
+        <section class="w-112 bg-gray-900 border-r border-gray-800 flex flex-col shrink-0">
+            <div class="p-4 border-b border-gray-800 bg-gray-950/50">
+                <input type="text" id="search-bar" placeholder="Filter by company, title, or skill..." 
+                       class="w-full bg-gray-950 border border-gray-800 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500 text-gray-200 placeholder-gray-500">
+            </div>
+            <div id="job-list-container" class="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-950/30">
+                </div>
+        </section>
+
+        <section id="details-panel" class="flex-1 bg-gray-950 p-8 overflow-y-auto flex flex-col justify-center items-center text-gray-500">
+            <div class="text-center">
+                <span class="text-5xl block mb-4">💼</span>
+                <p class="text-lg font-medium">Select a job card from the sidebar feed to inspect full metrics.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        const PRIMARY_PATH = 'jobs/google_matched_jobs.json';
+        const FALLBACK_PATH = './jobs/google_matched_jobs.json';
+        
+        let jobsData = [];
+        let activeJobIndex = null;
+
+        async function loadLocalWorkspace() {
+            let response;
+            try {
+                response = await fetch(PRIMARY_PATH);
+                if (!response.ok) throw new Error("Primary path missed.");
+            } catch (e) {
+                try {
+                    response = await fetch(FALLBACK_PATH);
+                    if (!response.ok) throw new Error("Fallback path missed.");
+                } catch (err) {
+                    console.error("Data tracking stream completely interrupted:", err);
+                    document.getElementById('job-list-container').innerHTML = `
+                        <div class="p-4 text-xs text-red-400">Failed to stream data file. Verify google_matched_jobs.json exists!</div>
+                    `;
+                    return;
+                }
+            }
+
+            try {
+                jobsData = await response.json();
+                document.getElementById('job-counter').innerText = `${jobsData.length} Automation Openings Mapped`;
+                renderSidebarList(jobsData);
+                
+                if (jobsData.length > 0) {
+                    displayTargetJob(0); 
+                }
+            } catch (jsonErr) {
+                console.error("Malformed JSON payload error:", jsonErr);
+            }
+        }
+
+        function renderSidebarList(jobs, filterString = "") {
+            const container = document.getElementById('job-list-container');
+            container.innerHTML = "";
+
+            jobs.forEach((job, index) => {
+                // Extended real-time filtration string tracking arrays
+                const searchPool = `${job.company} ${job.jobTitle} ${job.skillsNeeded.join(' ')}`.toLowerCase();
+                if (filterString && !searchPool.includes(filterString)) {
+                    return;
+                }
+
+                const location = job.location || "India (Remote/Hybrid)";
+                const experience = job.experience || "Not specified";
+
+                const cardNode = document.createElement('div');
+                // Transformed standard raw row listing into an independent elevated UI Card
+                cardNode.className = `bg-gray-900 border rounded-xl p-4 transition-all cursor-pointer flex flex-col justify-between space-y-3 relative group shadow-md ${
+                    activeJobIndex === index 
+                    ? 'border-blue-500 ring-1 ring-blue-500/30 shadow-blue-950/20' 
+                    : 'border-gray-800 hover:border-gray-700 hover:bg-gray-900/80'
+                }`;
+                
+                // Clicking anywhere on the card switches panels, except clicking the integrated button directly
+                cardNode.onclick = () => displayTargetJob(index);
+
+                // Quick horizontal slices of matching skills for mini preview badges
+                const skillBadges = job.skillsNeeded.slice(0, 3).map(s => 
+                    `<span class="bg-emerald-950/50 text-emerald-400 border border-emerald-900/40 text-[10px] font-bold px-1.5 py-0.5 rounded">${s}</span>`
+                ).join('');
+
+                cardNode.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-start gap-2 mb-1">
+                            <span class="text-[10px] uppercase font-bold tracking-wider text-blue-400 truncate max-w-[180px]">
+                                ${job.company}
+                            </span>
+                            <span class="text-[9px] text-gray-500 shrink-0 font-medium">${job.dateScraped || ''}</span>
+                        </div>
+
+                        <h4 class="font-bold text-sm text-white line-clamp-1 mb-2 group-hover:text-blue-400 transition-colors">
+                            ${job.jobTitle}
+                        </h4>
+
+                        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-gray-400 font-medium mb-3">
+                            <span class="flex items-center"><span class="mr-1 text-gray-500">📍</span>${location}</span>
+                            <span class="flex items-center"><span class="mr-1 text-gray-500">⏳</span>${experience}</span>
+                        </div>
+
+                        <div class="flex flex-wrap gap-1.5 pt-1 border-t border-gray-800/60">
+                            ${skillBadges}
+                            ${job.skillsNeeded.length > 3 ? `<span class="text-[10px] text-gray-500 font-bold self-center pl-1">+${job.skillsNeeded.length - 3} more</span>` : ''}
+                        </div>
+                    </div>
+
+                    <div class="pt-2 shrink-0">
+                        <button onclick="event.stopPropagation(); window.open('${job.directApplyLink}', '_blank')" 
+                                class="w-full bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold py-2 rounded-lg transition-colors flex items-center justify-center space-x-1 shadow-sm">
+                            <span>🚀 Apply from Card</span>
+                        </button>
+                    </div>
+                `;
+                container.appendChild(cardNode);
+            });
+        }
+
+        function displayTargetJob(index) {
+            activeJobIndex = index;
+            const job = jobsData[index];
+            const viewPanel = document.getElementById('details-panel');
+
+            // Synchronize selection visual states on render lifecycle loop
+            renderSidebarList(jobsData, document.getElementById('search-bar').value.toLowerCase());
+
+            const location = job.location || "India (Remote/Hybrid Context)";
+            const experience = job.experience || "Not specified (Matches your profile)";
+
+            const skillsHaveHtml = job.skillsNeeded.map(skill => 
+                `<span class="bg-emerald-950/80 text-emerald-400 border border-emerald-900/60 text-xs font-semibold px-2.5 py-1 rounded-md m-1 inline-block">${skill}</span>`
+            ).join('') || `<span class="text-xs text-gray-500 italic">None detected</span>`;
+
+            const skillsMissingHtml = (job.missingSkills || []).map(skill => 
+                `<span class="bg-rose-950/40 text-rose-400 border border-rose-900/40 text-xs font-semibold px-2.5 py-1 rounded-md m-1 inline-block">${skill}</span>`
+            ).join('') || `<span class="text-xs text-gray-500 italic">Perfect skillset overlap!</span>`;
+
+            viewPanel.className = "flex-1 bg-gray-950 p-8 overflow-y-auto flex flex-col justify-start text-left";
+            viewPanel.innerHTML = `
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center pb-6 border-b border-gray-800 gap-4 mb-6">
+                    <div>
+                        <span class="text-xs uppercase font-bold tracking-widest text-blue-400 block mb-1">${job.company}</span>
+                        <h2 class="text-2xl font-bold text-white tracking-tight">${job.jobTitle}</h2>
+                    </div>
+                    <div class="shrink-0">
+                        <button onclick="window.open('${job.directApplyLink}', '_blank')" class="bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm px-5 py-2.5 rounded-lg shadow-lg shadow-blue-900/20 transition-all flex items-center space-x-2">
+                            <span>🚀 Apply Direct Link</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+                        <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider block mb-1">📍 Job Location Target</span>
+                        <p class="text-sm text-gray-200 font-medium">${location}</p>
+                    </div>
+                    <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+                        <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider block mb-1">⏳ Profile Experience Context</span>
+                        <p class="text-sm text-gray-200 font-medium">${experience}</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-3 flex items-center">
+                            <span class="mr-2">✅</span> Skills You Have (Detected inside Job Description)
+                        </h3>
+                        <div class="bg-gray-900/40 border border-gray-800 p-4 rounded-xl -m-1">
+                            ${skillsHaveHtml}
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-rose-400 mb-3 flex items-center">
+                            <span class="mr-2">❌</span> Profile Gaps (Missing from Job Description)
+                        </h3>
+                        <div class="bg-gray-900/40 border border-gray-800 p-4 rounded-xl -m-1">
+                            ${skillsMissingHtml}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        document.getElementById('search-bar').addEventListener('input', (e) => {
+            renderSidebarList(jobsData, e.target.value.toLowerCase());
+        });
+
+        loadLocalWorkspace();
+    </script>
+</body>
+</html>
