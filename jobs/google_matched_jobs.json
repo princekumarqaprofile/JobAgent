@@ -30,12 +30,12 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/ui-qa-automation-engineer-at-armada-4420226816",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Software Developer Engineer in Test",
@@ -68,12 +68,50 @@
       "JIRA",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/software-developer-engineer-in-test-at-nov-4390043640",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Software Test Engineer (Automation + AI)",
+    "company": "Allata",
+    "skillsNeeded": [
+      "JAVA",
+      "TESTNG",
+      "POSTMAN",
+      "API TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "GIT",
+      "AGILE",
+      "AZURE DEVOPS",
+      "JIRA",
+      "SQL"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "REST ASSURED",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "END-TO-END TESTING",
+      "SELENIUM GRID",
+      "XPATH",
+      "BDD CUCUMBER",
+      "SCRUM",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/software-test-engineer-automation-%2B-ai-at-allata-4420988527",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Quality Assurance Automation Engineer",
@@ -106,12 +144,12 @@
       "AZURE DEVOPS",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/quality-assurance-automation-engineer-at-phonon-automating-outcomes-4417938224",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "QA Automation Engineer",
@@ -144,12 +182,50 @@
       "JIRA",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/qa-automation-engineer-at-smartsense-consulting-solutions-4412773311",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Automation Test Engineer",
+    "company": "S9",
+    "skillsNeeded": [
+      "JAVA",
+      "POSTMAN",
+      "API TESTING",
+      "FUNCTIONAL TESTING",
+      "MANUAL TESTING",
+      "GIT",
+      "AGILE",
+      "SCRUM",
+      "JIRA"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "REST ASSURED",
+      "UI TESTING",
+      "REGRESSION TESTING",
+      "END-TO-END TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "AZURE DEVOPS",
+      "SQL",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/automation-test-engineer-at-s9-4422555013",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Test Automation Engineer",
@@ -182,12 +258,12 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/test-automation-engineer-at-accenture-in-india-4414223661",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Test Automation Engineer (Quality Engineering) - Husky (Guindy,Chennai)",
@@ -220,12 +296,12 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
-    "directApplyLink": "https://in.linkedin.com/jobs/view/test-automation-engineer-quality-engineering-husky-guindy-chennai-at-husky-technologies-4421371228",
-    "dateScraped": "2026-05-30"
+    "directApplyLink": "https://in.linkedin.com/jobs/view/test-automation-engineer-quality-engineering-husky-guindy-chennai-at-husky-technologies-4422565087",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "QA Automation Engineer (WFO - Ahmedabad)",
@@ -258,12 +334,12 @@
       "AZURE DEVOPS",
       "JIRA",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/qa-automation-engineer-wfo-ahmedabad-at-solguruz%C2%AE-4413546637",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Software Engineer",
@@ -296,50 +372,12 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/software-engineer-at-harris-computer-4414671902",
-    "dateScraped": "2026-05-30"
-  },
-  {
-    "jobTitle": "Software Development Engineer in Test (SDET)",
-    "company": "Trivelta",
-    "skillsNeeded": [
-      "JAVA",
-      "API TESTING",
-      "MANUAL TESTING",
-      "GIT"
-    ],
-    "missingSkills": [
-      "SELENIUM WEBDRIVER",
-      "TESTNG",
-      "REST ASSURED",
-      "POSTMAN",
-      "UI TESTING",
-      "FUNCTIONAL TESTING",
-      "REGRESSION TESTING",
-      "END-TO-END TESTING",
-      "CROSS-BROWSER TESTING",
-      "SELENIUM GRID",
-      "BROWSERSTACK",
-      "LAMBDATEST",
-      "XPATH",
-      "BDD CUCUMBER",
-      "AGILE",
-      "SCRUM",
-      "AZURE DEVOPS",
-      "JIRA",
-      "SQL",
-      "MAVEN",
-      "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
-    ],
-    "sourceSite": "LinkedIn Public Feed",
-    "contactDetails": "Apply directly via portal link",
-    "directApplyLink": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-at-trivelta-4373623706",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Senior Quality Assurance Automation Engineer",
@@ -372,12 +410,50 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/senior-quality-assurance-automation-engineer-at-goml-4420413506",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "QA Engineer [T500-26059]",
+    "company": "Comply",
+    "skillsNeeded": [
+      "TESTNG",
+      "POSTMAN",
+      "API TESTING",
+      "MANUAL TESTING",
+      "GIT",
+      "AGILE",
+      "JIRA",
+      "SQL"
+    ],
+    "missingSkills": [
+      "JAVA",
+      "SELENIUM WEBDRIVER",
+      "REST ASSURED",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "END-TO-END TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/qa-engineer-t500-26059-at-comply-4417050709",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Software Development Engineer in Test ( SDET) II",
@@ -410,12 +486,12 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-ii-at-poshmark-4411159790",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "AI Test Automation Engineer",
@@ -448,12 +524,12 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/ai-test-automation-engineer-at-the-hr-ally-4422005800",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "QA Automation Engineer",
@@ -486,12 +562,50 @@
       "AZURE DEVOPS",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/qa-automation-engineer-at-quadratyx-4414271666",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "SDET",
+    "company": "Prodege, LLC",
+    "skillsNeeded": [
+      "JAVA",
+      "REST ASSURED",
+      "POSTMAN",
+      "API TESTING",
+      "REGRESSION TESTING",
+      "GIT"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "END-TO-END TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "AGILE",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "JIRA",
+      "SQL",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/sdet-at-prodege-llc-4359772678",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "QA Engineer",
@@ -524,50 +638,50 @@
       "BDD CUCUMBER",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/qa-engineer-at-databeat-io-media-4417748842",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
-    "jobTitle": "Test Automation Specialist",
-    "company": "LTM",
+    "jobTitle": "QA Automation Engineer",
+    "company": "Anaqua",
     "skillsNeeded": [
       "JAVA",
       "REST ASSURED",
+      "POSTMAN",
       "API TESTING",
-      "BDD CUCUMBER",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "CROSS-BROWSER TESTING",
+      "GIT",
+      "AGILE",
+      "SCRUM",
       "JIRA",
-      "MAVEN"
+      "SQL"
     ],
     "missingSkills": [
       "SELENIUM WEBDRIVER",
       "TESTNG",
-      "POSTMAN",
       "UI TESTING",
-      "FUNCTIONAL TESTING",
-      "REGRESSION TESTING",
       "END-TO-END TESTING",
       "MANUAL TESTING",
-      "CROSS-BROWSER TESTING",
       "SELENIUM GRID",
       "BROWSERSTACK",
       "LAMBDATEST",
       "XPATH",
-      "GIT",
-      "AGILE",
-      "SCRUM",
+      "BDD CUCUMBER",
       "AZURE DEVOPS",
-      "SQL",
+      "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
-    "directApplyLink": "https://in.linkedin.com/jobs/view/test-automation-specialist-at-ltm-4412001145",
-    "dateScraped": "2026-05-30"
+    "directApplyLink": "https://in.linkedin.com/jobs/view/qa-automation-engineer-at-anaqua-4417966713",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "QA Engineer",
@@ -600,12 +714,12 @@
       "BDD CUCUMBER",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/qa-engineer-at-databeat-4417752751",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Software QA Automation Engineer",
@@ -638,30 +752,27 @@
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/software-qa-automation-engineer-at-nov-4390055036",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
-    "jobTitle": "QA Automation Engineer with AI",
-    "company": "CGI",
+    "jobTitle": "Automation Testing",
+    "company": "UST",
     "skillsNeeded": [
       "JAVA",
-      "POSTMAN",
-      "API TESTING",
-      "GIT",
-      "AGILE",
-      "SCRUM",
-      "AZURE DEVOPS",
-      "JIRA"
-    ],
-    "missingSkills": [
       "SELENIUM WEBDRIVER",
       "TESTNG",
       "REST ASSURED",
+      "API TESTING",
+      "AGILE",
+      "SCRUM"
+    ],
+    "missingSkills": [
+      "POSTMAN",
       "UI TESTING",
       "FUNCTIONAL TESTING",
       "REGRESSION TESTING",
@@ -673,15 +784,18 @@
       "LAMBDATEST",
       "XPATH",
       "BDD CUCUMBER",
+      "GIT",
+      "AZURE DEVOPS",
+      "JIRA",
       "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
-    "directApplyLink": "https://in.linkedin.com/jobs/view/qa-automation-engineer-with-ai-at-cgi-4418015204",
-    "dateScraped": "2026-05-30"
+    "directApplyLink": "https://in.linkedin.com/jobs/view/automation-testing-at-ust-4361878352",
+    "dateScraped": "2026-05-31"
   },
   {
     "jobTitle": "Software Development Engineer in Test",
@@ -714,30 +828,176 @@
       "JIRA",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
     "directApplyLink": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-at-experian-4410977552",
-    "dateScraped": "2026-05-30"
+    "dateScraped": "2026-05-31"
   },
   {
-    "jobTitle": "Quality Assurance Automation Engineer",
-    "company": "Impetus",
+    "jobTitle": "QA Automation Engineer - QA 2",
+    "company": "Purplle.com",
+    "skillsNeeded": [
+      "JAVA",
+      "REST ASSURED",
+      "POSTMAN",
+      "API TESTING",
+      "END-TO-END TESTING",
+      "BROWSERSTACK",
+      "GIT",
+      "AGILE",
+      "JIRA"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "SQL",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/qa-automation-engineer-qa-2-at-purplle-com-4409136819",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Software Development Engineer in Test",
+    "company": "Clearwater Analytics",
     "skillsNeeded": [
       "JAVA",
       "TESTNG",
+      "FUNCTIONAL TESTING",
+      "GIT",
+      "AGILE",
+      "JIRA",
+      "SQL",
+      "MAVEN"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
       "REST ASSURED",
       "POSTMAN",
+      "API TESTING",
+      "UI TESTING",
+      "REGRESSION TESTING",
+      "END-TO-END TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
       "BDD CUCUMBER",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-at-clearwater-analytics-4414745670",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Software Development Engineer in Test II",
+    "company": "Trimble Inc.",
+    "skillsNeeded": [
+      "JAVA",
+      "REGRESSION TESTING",
       "GIT",
       "AGILE",
       "SCRUM",
+      "AZURE DEVOPS",
       "JIRA",
       "SQL"
     ],
     "missingSkills": [
       "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "REST ASSURED",
+      "POSTMAN",
+      "API TESTING",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "END-TO-END TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-ii-at-trimble-inc-4402505764",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "QA Engineer",
+    "company": "Team Geek Solutions",
+    "skillsNeeded": [
+      "JAVA",
+      "REST ASSURED",
+      "POSTMAN",
+      "API TESTING",
+      "END-TO-END TESTING",
+      "GIT",
+      "SQL"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "AGILE",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "JIRA",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/qa-engineer-at-team-geek-solutions-4418235905",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "SDET",
+    "company": "Disprz",
+    "skillsNeeded": [
+      "JAVA",
+      "POSTMAN"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "REST ASSURED",
       "API TESTING",
       "UI TESTING",
       "FUNCTIONAL TESTING",
@@ -749,14 +1009,134 @@
       "BROWSERSTACK",
       "LAMBDATEST",
       "XPATH",
+      "BDD CUCUMBER",
+      "GIT",
+      "AGILE",
+      "SCRUM",
       "AZURE DEVOPS",
+      "JIRA",
+      "SQL",
       "MAVEN",
       "POM FRAMEWORK",
-      "HYBRID FRAMEWORK"
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
     ],
     "sourceSite": "LinkedIn Public Feed",
     "contactDetails": "Apply directly via portal link",
-    "directApplyLink": "https://in.linkedin.com/jobs/view/quality-assurance-automation-engineer-at-impetus-4413272760",
-    "dateScraped": "2026-05-30"
+    "directApplyLink": "https://in.linkedin.com/jobs/view/sdet-at-disprz-4418596524",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Associate Software Quality Engineer",
+    "company": "VitelyBio",
+    "skillsNeeded": [
+      "JAVA",
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "REST ASSURED",
+      "POSTMAN",
+      "API TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "MANUAL TESTING",
+      "GIT",
+      "SQL"
+    ],
+    "missingSkills": [
+      "UI TESTING",
+      "END-TO-END TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "AGILE",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "JIRA",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/associate-software-quality-engineer-at-vitelybio-4419048902",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Test Automation Engineer",
+    "company": "Copado",
+    "skillsNeeded": [
+      "POSTMAN",
+      "GIT",
+      "SQL"
+    ],
+    "missingSkills": [
+      "JAVA",
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "REST ASSURED",
+      "API TESTING",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "END-TO-END TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "AGILE",
+      "SCRUM",
+      "AZURE DEVOPS",
+      "JIRA",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/test-automation-engineer-at-copado-4410186027",
+    "dateScraped": "2026-05-31"
+  },
+  {
+    "jobTitle": "Quality Assurance Automation Engineer",
+    "company": "ValueLabs",
+    "skillsNeeded": [
+      "JAVA",
+      "GIT",
+      "AZURE DEVOPS"
+    ],
+    "missingSkills": [
+      "SELENIUM WEBDRIVER",
+      "TESTNG",
+      "REST ASSURED",
+      "POSTMAN",
+      "API TESTING",
+      "UI TESTING",
+      "FUNCTIONAL TESTING",
+      "REGRESSION TESTING",
+      "END-TO-END TESTING",
+      "MANUAL TESTING",
+      "CROSS-BROWSER TESTING",
+      "SELENIUM GRID",
+      "BROWSERSTACK",
+      "LAMBDATEST",
+      "XPATH",
+      "BDD CUCUMBER",
+      "AGILE",
+      "SCRUM",
+      "JIRA",
+      "SQL",
+      "MAVEN",
+      "POM FRAMEWORK",
+      "HYBRID FRAMEWORK,SELENIUM,RESTASSURED"
+    ],
+    "sourceSite": "LinkedIn Public Feed",
+    "contactDetails": "Apply directly via portal link",
+    "directApplyLink": "https://in.linkedin.com/jobs/view/quality-assurance-automation-engineer-at-valuelabs-4414599036",
+    "dateScraped": "2026-05-31"
   }
 ]

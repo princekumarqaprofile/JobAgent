@@ -27,7 +27,7 @@ async function searchLinkedInJobs() {
         "end-to-end testing", "manual testing", "cross-browser testing", 
         "selenium grid", "browserstack", "lambdatest", "xpath", "bdd cucumber", 
         "git", "agile", "scrum", "azure devops", "jira", "sql", "maven", 
-        "pom framework", "hybrid framework"
+        "pom framework", "hybrid framework,Selenium,RestAssured"
     ];
     
     const searchKeywords = [
@@ -38,7 +38,7 @@ async function searchLinkedInJobs() {
 
     let foundJobs = [];
     const seenLinks = new Set();
-    const maxTargetJobs = 20;
+    const maxTargetJobs = 30;
 
     for (const keyword of searchKeywords) {
         if (foundJobs.length >= maxTargetJobs) break;

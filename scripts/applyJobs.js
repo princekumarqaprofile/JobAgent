@@ -157,6 +157,7 @@ async function runSelfContainedPipeline() {
 
     console.log("Starting application filter loop...");
     await applyJobs(page);
+    
 
     console.log("\nAll items in queue parsed successfully. Shutting down browser.");
     await browser.close();
